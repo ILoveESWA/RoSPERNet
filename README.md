@@ -9,7 +9,7 @@
 ## 🚀 Introduction
 
 <div align="center">
-    <img width="400" alt="image" src="asserts/Challenges.png?raw=true">
+    <img width="400" alt="image" src="asserts/challenges.png?raw=true">
 </div>
 
 The challenges: (a) Identifying complex salient targets in medical images of different pathologies requires capturing global salient regions and intricate local details. (b) Salient objects are often affected by non-salient targets, which challenges accurate boundary detection.
