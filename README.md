@@ -57,7 +57,7 @@ pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
 python train.py --datasets ISIC2018
 training records is saved to ./log folder
 pre-training file is saved to ./checkpoints/ISIC2018/best.pth
-concrete information see ./LCENet/train.py, please
+concrete information see train.py, please
 ```
 
 ### 3. Test the RoSPER-Net
@@ -66,7 +66,7 @@ concrete information see ./LCENet/train.py, please
 python test.py --datasets ISIC2018
 testing records is saved to ./log folder
 testing results are saved to ./Test/ISIC2018/images folder
-concrete information see ./LCENet/test.py, please
+concrete information see test.py, please
 ```
 
 
@@ -80,7 +80,7 @@ concrete information see ./LCENet/test.py, please
 
 ## 🎫 License
 
-The content of this project itself is licensed under [LICENSE](LICENSE).
+The content of this project itself is licensed under [LICENSE](https://github.com/ILoveESWA/RoSPERNet/blob/main/LICENSE).
 
 ## 💡 Acknowledgement
 
