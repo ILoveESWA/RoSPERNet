@@ -6,6 +6,11 @@
 
 - [2024.1.18] Training and inference code released
 
+## ⭐ Abstract
+
+Medical image segmentation faces significant challenges, particularly in extracting key features for generalization and minimizing interference from non-salient targets to ensure precise localization of salient targets. 
+Existing methods have not effectively addressed these issues, resulting in suboptimal segmentation performance. To tackle these challenges, we propose RoSPER-Net, consisting of two components: the Spatial Prompt Encoder (SPE) and the Cross-Scale Edge Enhancement Decoder (CSED). SPE utilizes convolutional blocks and parallel Mamba to capture local-global features and introduces a self-prompting mechanism to extract crucial prior knowledge from both channel and spatial dimensions, thereby enhancing the model's stability and generalization capability. CSED employs multi-scale convolutions to extract rich features while integrating a noise suppression mechanism sensitive to background information and offset-driven deformable convolutions, effectively mitigating noise interference and improving the localization of irregular target contours. Experimental results on five public datasets demonstrate that RoSPER-Net surpasses ten existing state-of-the-art methods in segmentation accuracy, validating its robustness in complex medical imaging scenarios.
+
 ## 🚀 Introduction
 
 <div align="center">
@@ -19,7 +24,6 @@ The challenges: (a) Identifying complex salient targets in medical images of dif
 <div align="center">
 <img width="800" alt="image" src="asserts/network.png?raw=true">
 </div>
-
 
 Illustration of the overall architecture of RoSPER-Net. (II) SPE is Spatial Prompt Encoder, (III) CSED is Cross-scale Edge Enhancement Decoder. (II.a) PMM is Parallel Mamba Module, (II.b) SPM is Self-prompting Module, (II.c) CPB is Channel-prior Block, (II.d) SPB is Space-prior Block, (III.a) MSFE is Multi-scale Feature Extraction, (III.b) DCT is Dynamic Contour Tracking Module, (III.c) NSB is Noise Suppression Block, (III.d) DADCB is Direction-aware Deformable Convolution Block.
 
