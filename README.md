@@ -80,11 +80,15 @@ concrete information see test.py, please
 <img width="800" alt="image" src="asserts/Visualization.png?raw=true">
 </div>
 
+Visualization results of ten state-of-the-art methods and RoSPER-Net for different lesions. The red circles indicate areas of incorrect predictions.
+
 ## ✨ Quantitative comparison
 
 <div align="center">
 <img width="800" alt="image" src="asserts/compara.png?raw=true">
 </div>
+
+Performance comparison with ten SOTA methods on ISIC2017, ISIC2018, PH$^2$, Kvasir and BUSI datasets.
 
 ## 🎫 License
 
