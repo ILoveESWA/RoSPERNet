@@ -96,7 +96,3 @@ Visualization results of ten state-of-the-art methods and RoSPER-Net for differe
 
 The content of this project itself is licensed under [LICENSE](https://github.com/ILoveESWA/RoSPERNet/blob/main/LICENSE).
 
-## 💡 Acknowledgement
-
-- [UltraLight VM-UNet](https://github.com/eltociear/UltraLight-VM-UNet)
-
