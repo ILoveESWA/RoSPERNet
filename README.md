@@ -80,7 +80,11 @@ concrete information see test.py, please
 <img width="800" alt="image" src="asserts/Visualization.png?raw=true">
 </div>
 
+## ✨ Quantitative comparison
 
+<div align="center">
+<img width="800" alt="image" src="asserts/compara.png?raw=true">
+</div>
 
 ## 🎫 License
 
