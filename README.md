@@ -89,7 +89,7 @@ Visualization results of ten state-of-the-art methods and RoSPER-Net for differe
 </div>
 
 <div align="center">
-    Performance comparison with ten SOTA methods on ISIC2017, ISIC2018, PH$^2$, Kvasir and BUSI datasets.
+    Performance comparison with ten SOTA methods on ISIC2017, ISIC2018, PH2, Kvasir and BUSI datasets.
 </div>
 
 ## 🎫 License
